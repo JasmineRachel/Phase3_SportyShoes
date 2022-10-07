@@ -11,6 +11,8 @@ public class Product {
     private Long id;
     private String product_name;
     private double price;
+    private String sizes;
+    private String category;
 
     public String getSizes() {
         return sizes;
@@ -20,8 +22,7 @@ public class Product {
         this.sizes = sizes;
     }
 
-    private String sizes;
-    private String category;
+
 
     public Long getId() {
         return id;
