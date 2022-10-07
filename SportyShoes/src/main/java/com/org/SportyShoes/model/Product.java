@@ -11,6 +11,16 @@ public class Product {
     private Long id;
     private String product_name;
     private double price;
+
+    public String getSizes() {
+        return sizes;
+    }
+
+    public void setSizes(String sizes) {
+        this.sizes = sizes;
+    }
+
+    private String sizes;
     private String category;
 
     public Long getId() {
